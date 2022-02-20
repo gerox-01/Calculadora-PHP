@@ -1,0 +1,185 @@
+
+/* Estilos globales */
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(173, 236, 192);
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos index.php*/
+.container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.calc{
+    object-fit: cover;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgba(18, 19, 18, 0.185);
+    margin-top: 10px;
+}
+
+.p-foot{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-right: 100px;
+    padding-left: 20px;
+}
+
+.a-foot{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.a-option{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.by{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.index-foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    background-color: rgba(18, 19, 18, 0.185);
+    margin-top: 10px;
+}
+
+
+
+/* Estilos calculator.php */
+.title-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 50px;
+    font-weight: bold;
+
+    color:aliceblue;
+    text-decoration: dotted underline;
+}
+
+
+.volver{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.form-calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-calc{
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.display-calc{
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 20px;
+}
+
+/* estilos calculadoradigit.php */
+.form-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.input-2{
+    margin: 5px;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.operaciones-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding-top: 3%;
+    margin: 10px;
+}
+
+.volver-2{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.error-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
