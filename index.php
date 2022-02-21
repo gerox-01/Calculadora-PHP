@@ -18,8 +18,8 @@
             <img class="calc" src="./assets/calc.png" alt="">
         </div>
         <div class="options">
-            <a class="a-option" href="<?php echo "./calculator.php"; ?>">Calculator 📓</a>
-            <a class="a-option" href="<?php echo "./calculatordigit.php"; ?>">Calculator with digits 📎</a>
+            <a class="a-option" href="<?php echo "./calculator.php"; ?>">Calculadora 📓</a>
+            <a class="a-option" href="<?php echo "./calculatordigit.php"; ?>">Calculadora con digitos 📎</a>
         </div>
     </div>
 
